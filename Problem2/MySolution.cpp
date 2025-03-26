@@ -1,3 +1,8 @@
+/*
+A teacher rounds up student grades based on the following rules.
+If the grade is less than 38, it remains unchanged as it is a failing grade. 
+If the next multiple of 5 is within 3 marks of the current grade, the grade is rounded up to that multiple. Otherwise, the grade remains unchanged.
+*/
 vector<int> gradingStudents(vector<int> grades) {
     // Final Array of Grades after Rounding.
     vector<int> finalArray;
